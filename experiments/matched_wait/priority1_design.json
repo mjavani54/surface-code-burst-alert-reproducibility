@@ -1,0 +1,975 @@
+{
+  "settings": {
+    "seed": 2026111311,
+    "calibration_shots": 60000,
+    "trigger_shots": 200000,
+    "burst_shots": 40000,
+    "ordinary_shots": 6000000,
+    "ordinary_chunks": 24,
+    "ordinary_failure_chunks": 2,
+    "batch_size": 4096,
+    "workers": 8
+  },
+  "distance": 7,
+  "basis": "x",
+  "rounds": 84,
+  "onsets": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70
+  ],
+  "windows": [
+    {
+      "start": 1,
+      "commit": 7,
+      "stop": 14,
+      "deadline": 14
+    },
+    {
+      "start": 8,
+      "commit": 14,
+      "stop": 21,
+      "deadline": 21
+    },
+    {
+      "start": 15,
+      "commit": 21,
+      "stop": 28,
+      "deadline": 28
+    },
+    {
+      "start": 22,
+      "commit": 28,
+      "stop": 35,
+      "deadline": 35
+    },
+    {
+      "start": 29,
+      "commit": 35,
+      "stop": 42,
+      "deadline": 42
+    },
+    {
+      "start": 36,
+      "commit": 42,
+      "stop": 49,
+      "deadline": 49
+    },
+    {
+      "start": 43,
+      "commit": 49,
+      "stop": 56,
+      "deadline": 56
+    },
+    {
+      "start": 50,
+      "commit": 56,
+      "stop": 63,
+      "deadline": 63
+    },
+    {
+      "start": 57,
+      "commit": 63,
+      "stop": 70,
+      "deadline": 70
+    },
+    {
+      "start": 64,
+      "commit": 70,
+      "stop": 77,
+      "deadline": 77
+    },
+    {
+      "start": 71,
+      "commit": 77,
+      "stop": 84,
+      "deadline": 84
+    },
+    {
+      "start": 78,
+      "commit": 85,
+      "stop": 85,
+      "deadline": 84
+    }
+  ],
+  "eligible": {
+    "1": [
+      8,
+      9,
+      10
+    ],
+    "2": [
+      15,
+      16,
+      17
+    ],
+    "3": [
+      22,
+      23,
+      24
+    ],
+    "4": [
+      29,
+      30,
+      31
+    ],
+    "5": [
+      36,
+      37,
+      38
+    ],
+    "6": [
+      43,
+      44,
+      45
+    ],
+    "7": [
+      50,
+      51,
+      52
+    ],
+    "8": [
+      57,
+      58,
+      59
+    ],
+    "9": [
+      64,
+      65,
+      66
+    ]
+  },
+  "threshold_budgeted": 32,
+  "calibration_seeds": [
+    15394788994936447518,
+    4679766907710608803,
+    11785912032364132681,
+    11873219190646410415,
+    5709634552339621478,
+    17537192341108404908,
+    6681055913613692782,
+    8176515111048983947,
+    12819886984162625395,
+    1113977288666025297,
+    601155048315585041,
+    17541730576010785344,
+    17033828783979810153,
+    15950352946442214032,
+    1400486636260766360,
+    16188469497039552242,
+    17820673272733728206,
+    9294670665324990187,
+    17542127968620519755,
+    13479293084536354128,
+    1731435478863549234,
+    7274890722064601001,
+    3227551001662571412,
+    7682700380510473006,
+    334405499096575823,
+    13868644784329277854,
+    114052988334923679,
+    2276504066183536737,
+    11658327026374096836,
+    1895225896275247296,
+    18331233944006295949,
+    8495595337576714498,
+    18042461073955091390,
+    18227871109060121401,
+    6357672248650292593,
+    3405624530142351110,
+    8989413155882964153,
+    10427140800291425153,
+    10649207214776006745,
+    15879192055306019715,
+    1543923021488699576,
+    3515803663923636148,
+    6470868708611277614,
+    9861679973016765124,
+    17074729029801051598,
+    3885652963701756344,
+    10909206100011196712,
+    17315470683832043204,
+    16245622774425773821,
+    15711418963754470384,
+    18201114911985140649,
+    11350287328328410586,
+    12735526490675477072,
+    9425068272252392627,
+    15946501974669901146,
+    8790541770500779733,
+    9148310948194149940,
+    11702420990341087936,
+    9576053481923545323,
+    14670066092892108973,
+    14145552633444584855,
+    2527543824091967840,
+    1664998533060746296,
+    3010570396788360539
+  ],
+  "trigger_seed": 15284107674376888564,
+  "test_chunks": [
+    {
+      "onset": 8,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 17831267781405756149,
+      "alert_seed": 15453631319219358491,
+      "measure_failure": true
+    },
+    {
+      "onset": 9,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 15631397043196064113,
+      "alert_seed": 15608899019673896763,
+      "measure_failure": true
+    },
+    {
+      "onset": 10,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 5416390325147176825,
+      "alert_seed": 4701929640390929521,
+      "measure_failure": true
+    },
+    {
+      "onset": 11,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 5412306110075298509,
+      "alert_seed": 9128764179189137184,
+      "measure_failure": true
+    },
+    {
+      "onset": 12,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 16396109180351944093,
+      "alert_seed": 5889493093183929832,
+      "measure_failure": true
+    },
+    {
+      "onset": 13,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 2536945038701955518,
+      "alert_seed": 11022442302469024391,
+      "measure_failure": true
+    },
+    {
+      "onset": 14,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 17068201380756785516,
+      "alert_seed": 16164935621338480416,
+      "measure_failure": true
+    },
+    {
+      "onset": 15,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 11032056287752539745,
+      "alert_seed": 529690351650567061,
+      "measure_failure": true
+    },
+    {
+      "onset": 16,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 4051063592271678372,
+      "alert_seed": 7508776067412100989,
+      "measure_failure": true
+    },
+    {
+      "onset": 17,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 5742025239159307217,
+      "alert_seed": 1462883340669659219,
+      "measure_failure": true
+    },
+    {
+      "onset": 18,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 3587715981571061683,
+      "alert_seed": 9248154481098510656,
+      "measure_failure": true
+    },
+    {
+      "onset": 19,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 16936294023111223398,
+      "alert_seed": 3246852921693513531,
+      "measure_failure": true
+    },
+    {
+      "onset": 20,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 6070396935348451051,
+      "alert_seed": 8033632857792785045,
+      "measure_failure": true
+    },
+    {
+      "onset": 21,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 3059581672802107537,
+      "alert_seed": 14979233257047566825,
+      "measure_failure": true
+    },
+    {
+      "onset": 22,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 17031916951879624710,
+      "alert_seed": 534757322678127380,
+      "measure_failure": true
+    },
+    {
+      "onset": 23,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 16506089242601634001,
+      "alert_seed": 9706962531955774016,
+      "measure_failure": true
+    },
+    {
+      "onset": 24,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 5595409458788425866,
+      "alert_seed": 250052859053588229,
+      "measure_failure": true
+    },
+    {
+      "onset": 25,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 12907669501894153520,
+      "alert_seed": 11337840857810459411,
+      "measure_failure": true
+    },
+    {
+      "onset": 26,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 14760916935177240690,
+      "alert_seed": 6206976766533389635,
+      "measure_failure": true
+    },
+    {
+      "onset": 27,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 10517346943101904730,
+      "alert_seed": 4201540997610542353,
+      "measure_failure": true
+    },
+    {
+      "onset": 28,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 17352676360184489958,
+      "alert_seed": 5389268005081883384,
+      "measure_failure": true
+    },
+    {
+      "onset": 29,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 17112709207613023087,
+      "alert_seed": 4761984023860778542,
+      "measure_failure": true
+    },
+    {
+      "onset": 30,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 7682919930515944336,
+      "alert_seed": 16292649076138246016,
+      "measure_failure": true
+    },
+    {
+      "onset": 31,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 2989183837119674400,
+      "alert_seed": 8070064839175991540,
+      "measure_failure": true
+    },
+    {
+      "onset": 32,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 15567227500161643688,
+      "alert_seed": 17411651295390858957,
+      "measure_failure": true
+    },
+    {
+      "onset": 33,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 6749094352839116841,
+      "alert_seed": 1493960684961392293,
+      "measure_failure": true
+    },
+    {
+      "onset": 34,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 7289513940419326152,
+      "alert_seed": 13444650393790457506,
+      "measure_failure": true
+    },
+    {
+      "onset": 35,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 9788757955745634052,
+      "alert_seed": 7851224945749927516,
+      "measure_failure": true
+    },
+    {
+      "onset": 36,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 1748082361967840451,
+      "alert_seed": 16577271899899624868,
+      "measure_failure": true
+    },
+    {
+      "onset": 37,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 12328074226371806129,
+      "alert_seed": 12203174932050939961,
+      "measure_failure": true
+    },
+    {
+      "onset": 38,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 16953148936695213241,
+      "alert_seed": 9162966729839210905,
+      "measure_failure": true
+    },
+    {
+      "onset": 39,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 14761052997874251257,
+      "alert_seed": 13177730047623577240,
+      "measure_failure": true
+    },
+    {
+      "onset": 40,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 16917097046963079280,
+      "alert_seed": 14763546537672555547,
+      "measure_failure": true
+    },
+    {
+      "onset": 41,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 6371595441875494599,
+      "alert_seed": 16284912450296134044,
+      "measure_failure": true
+    },
+    {
+      "onset": 42,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 13849586266410247097,
+      "alert_seed": 14831143615215331750,
+      "measure_failure": true
+    },
+    {
+      "onset": 43,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 14561618305374352082,
+      "alert_seed": 7729664934245208506,
+      "measure_failure": true
+    },
+    {
+      "onset": 44,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 6330511029729480012,
+      "alert_seed": 13902090429603450479,
+      "measure_failure": true
+    },
+    {
+      "onset": 45,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 12408315363583789140,
+      "alert_seed": 3055120932872806110,
+      "measure_failure": true
+    },
+    {
+      "onset": 46,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 13167541091636217837,
+      "alert_seed": 580719263326148376,
+      "measure_failure": true
+    },
+    {
+      "onset": 47,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 15174680142295925314,
+      "alert_seed": 16799480955275633828,
+      "measure_failure": true
+    },
+    {
+      "onset": 48,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 15988769358532437634,
+      "alert_seed": 16756397445998688627,
+      "measure_failure": true
+    },
+    {
+      "onset": 49,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 7415344801857394948,
+      "alert_seed": 5155532387743641947,
+      "measure_failure": true
+    },
+    {
+      "onset": 50,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 3845775260175491973,
+      "alert_seed": 485886721961596169,
+      "measure_failure": true
+    },
+    {
+      "onset": 51,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 13826654785027310329,
+      "alert_seed": 12152748294037360788,
+      "measure_failure": true
+    },
+    {
+      "onset": 52,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 10889007886444163093,
+      "alert_seed": 13719650693936186034,
+      "measure_failure": true
+    },
+    {
+      "onset": 53,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 3234362733420668023,
+      "alert_seed": 708157486407995265,
+      "measure_failure": true
+    },
+    {
+      "onset": 54,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 5163194182442318445,
+      "alert_seed": 18430339760544046764,
+      "measure_failure": true
+    },
+    {
+      "onset": 55,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 8876492099348465089,
+      "alert_seed": 5679761071734509779,
+      "measure_failure": true
+    },
+    {
+      "onset": 56,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 8514896005609967293,
+      "alert_seed": 4989374335591446416,
+      "measure_failure": true
+    },
+    {
+      "onset": 57,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 15849246623121003284,
+      "alert_seed": 12300377159425729094,
+      "measure_failure": true
+    },
+    {
+      "onset": 58,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 4801529645651494827,
+      "alert_seed": 12602301821105671763,
+      "measure_failure": true
+    },
+    {
+      "onset": 59,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 9865172706810701103,
+      "alert_seed": 18002878786171983090,
+      "measure_failure": true
+    },
+    {
+      "onset": 60,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 8991928338751941096,
+      "alert_seed": 15746670069813958713,
+      "measure_failure": true
+    },
+    {
+      "onset": 61,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 1641907235774962105,
+      "alert_seed": 8543959313384395210,
+      "measure_failure": true
+    },
+    {
+      "onset": 62,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 11078162230161042270,
+      "alert_seed": 16126261976929444116,
+      "measure_failure": true
+    },
+    {
+      "onset": 63,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 18015966011759798159,
+      "alert_seed": 5004081628913885688,
+      "measure_failure": true
+    },
+    {
+      "onset": 64,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 17050380217594394484,
+      "alert_seed": 13907417161922201083,
+      "measure_failure": true
+    },
+    {
+      "onset": 65,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 1835491037541774764,
+      "alert_seed": 12915335083754796408,
+      "measure_failure": true
+    },
+    {
+      "onset": 66,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 17074882939846536661,
+      "alert_seed": 13289984749931699609,
+      "measure_failure": true
+    },
+    {
+      "onset": 67,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 18353367034336668027,
+      "alert_seed": 982730486763707967,
+      "measure_failure": true
+    },
+    {
+      "onset": 68,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 7205557198326638847,
+      "alert_seed": 7674409161820792420,
+      "measure_failure": true
+    },
+    {
+      "onset": 69,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 5669978640805309819,
+      "alert_seed": 6714669712455175191,
+      "measure_failure": true
+    },
+    {
+      "onset": 70,
+      "chunk": 0,
+      "shots": 40000,
+      "syndrome_seed": 13937480914228160736,
+      "alert_seed": 17929736439760674591,
+      "measure_failure": true
+    },
+    {
+      "onset": 0,
+      "chunk": 0,
+      "shots": 250000,
+      "syndrome_seed": 3773053759166683969,
+      "alert_seed": 1867736565000468706,
+      "measure_failure": true
+    },
+    {
+      "onset": 0,
+      "chunk": 1,
+      "shots": 250000,
+      "syndrome_seed": 9929492112846893932,
+      "alert_seed": 6071399342149800495,
+      "measure_failure": true
+    },
+    {
+      "onset": 0,
+      "chunk": 2,
+      "shots": 250000,
+      "syndrome_seed": 10461411228651498938,
+      "alert_seed": 12173166047444675159,
+      "measure_failure": false
+    },
+    {
+      "onset": 0,
+      "chunk": 3,
+      "shots": 250000,
+      "syndrome_seed": 2732484103965253316,
+      "alert_seed": 8251858740431553422,
+      "measure_failure": false
+    },
+    {
+      "onset": 0,
+      "chunk": 4,
+      "shots": 250000,
+      "syndrome_seed": 6333103793733412924,
+      "alert_seed": 4823096293235821869,
+      "measure_failure": false
+    },
+    {
+      "onset": 0,
+      "chunk": 5,
+      "shots": 250000,
+      "syndrome_seed": 11405664515244555017,
+      "alert_seed": 4725497968405931684,
+      "measure_failure": false
+    },
+    {
+      "onset": 0,
+      "chunk": 6,
+      "shots": 250000,
+      "syndrome_seed": 12354097023748696500,
+      "alert_seed": 3073413518069512244,
+      "measure_failure": false
+    },
+    {
+      "onset": 0,
+      "chunk": 7,
+      "shots": 250000,
+      "syndrome_seed": 13833895048792762007,
+      "alert_seed": 17571127719279585987,
+      "measure_failure": false
+    },
+    {
+      "onset": 0,
+      "chunk": 8,
+      "shots": 250000,
+      "syndrome_seed": 17546082130005689733,
+      "alert_seed": 4962326547461848394,
+      "measure_failure": false
+    },
+    {
+      "onset": 0,
+      "chunk": 9,
+      "shots": 250000,
+      "syndrome_seed": 5866718968949724399,
+      "alert_seed": 12079958689754093537,
+      "measure_failure": false
+    },
+    {
+      "onset": 0,
+      "chunk": 10,
+      "shots": 250000,
+      "syndrome_seed": 8733648525728948228,
+      "alert_seed": 11493997051873306453,
+      "measure_failure": false
+    },
+    {
+      "onset": 0,
+      "chunk": 11,
+      "shots": 250000,
+      "syndrome_seed": 9624052443441375497,
+      "alert_seed": 6971541395212092834,
+      "measure_failure": false
+    },
+    {
+      "onset": 0,
+      "chunk": 12,
+      "shots": 250000,
+      "syndrome_seed": 6384716826750221939,
+      "alert_seed": 4961956019895526021,
+      "measure_failure": false
+    },
+    {
+      "onset": 0,
+      "chunk": 13,
+      "shots": 250000,
+      "syndrome_seed": 2790013520277721940,
+      "alert_seed": 4157391432616034778,
+      "measure_failure": false
+    },
+    {
+      "onset": 0,
+      "chunk": 14,
+      "shots": 250000,
+      "syndrome_seed": 8135560711479495976,
+      "alert_seed": 5131942834735734742,
+      "measure_failure": false
+    },
+    {
+      "onset": 0,
+      "chunk": 15,
+      "shots": 250000,
+      "syndrome_seed": 11121365418330607276,
+      "alert_seed": 15718733050455489657,
+      "measure_failure": false
+    },
+    {
+      "onset": 0,
+      "chunk": 16,
+      "shots": 250000,
+      "syndrome_seed": 12169859650494519745,
+      "alert_seed": 10998014355811277817,
+      "measure_failure": false
+    },
+    {
+      "onset": 0,
+      "chunk": 17,
+      "shots": 250000,
+      "syndrome_seed": 16595881088547660709,
+      "alert_seed": 13329462142796313898,
+      "measure_failure": false
+    },
+    {
+      "onset": 0,
+      "chunk": 18,
+      "shots": 250000,
+      "syndrome_seed": 15420909211907604729,
+      "alert_seed": 12032424213789392167,
+      "measure_failure": false
+    },
+    {
+      "onset": 0,
+      "chunk": 19,
+      "shots": 250000,
+      "syndrome_seed": 9914755547210548437,
+      "alert_seed": 2682452611312287928,
+      "measure_failure": false
+    },
+    {
+      "onset": 0,
+      "chunk": 20,
+      "shots": 250000,
+      "syndrome_seed": 15422902048630646354,
+      "alert_seed": 3260361308942870793,
+      "measure_failure": false
+    },
+    {
+      "onset": 0,
+      "chunk": 21,
+      "shots": 250000,
+      "syndrome_seed": 18060359850275587331,
+      "alert_seed": 1500099005203573021,
+      "measure_failure": false
+    },
+    {
+      "onset": 0,
+      "chunk": 22,
+      "shots": 250000,
+      "syndrome_seed": 2493351668748617239,
+      "alert_seed": 8204705527757230585,
+      "measure_failure": false
+    },
+    {
+      "onset": 0,
+      "chunk": 23,
+      "shots": 250000,
+      "syndrome_seed": 2686017836034234347,
+      "alert_seed": 10979892617952093593,
+      "measure_failure": false
+    }
+  ],
+  "versions": {
+    "python": "3.12.14",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "numpy": "2.3.5",
+    "stim": "1.16.0",
+    "pymatching": "2.4.0"
+  }
+}

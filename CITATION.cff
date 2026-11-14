@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software or its archived results, please cite this repository."
+type: software
+title: "Selective Waiting for Delayed Burst Alerts in Surface-Code Quantum Error Correction"
+version: "1.0.0"
+authors:
+  - family-names: "Javani"
+    given-names: "Mohammad"
+    affiliation: "Clark Atlanta University"
+keywords:
+  - quantum error correction
+  - surface codes
+  - correlated noise
+  - sliding-window decoding
+  - burst alerts
